@@ -80,7 +80,7 @@ class GSODWeatherSource(WeatherSourceBase):
         if len(station_id) == 6:
             # given station id is the six digit code, so need to get full name
             gsod_station_index_filename = os.path.join(
-                    os.path.dirname(os.path.dirname(eemeter.__file__)),
+                    os.path.dirname(eemeter.__file__),
                     'resources',
                     'GSOD-ISD_station_index.json')
             with open(gsod_station_index_filename,'r') as f:
@@ -127,7 +127,7 @@ class ISDWeatherSource(WeatherSourceBase):
         if len(station_id) == 6:
             # given station id is the six digit code, so need to get full name
             gsod_station_index_filename = os.path.join(
-                    os.path.dirname(os.path.dirname(eemeter.__file__)),
+                    os.path.dirname(eemeter.__file__),
                     'resources',
                     'GSOD-ISD_station_index.json')
             with open(gsod_station_index_filename,'r') as f:
