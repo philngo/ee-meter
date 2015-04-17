@@ -1,6 +1,12 @@
 Open Energy Efficiency Meter
 ============================
 
+***WARNING: The repository location for the Open EE Meter calculation has moved:***
+
+Please go to https://github.com/impactlab/eemeter for the newest version
+
+This repository is no longer updated.
+
 Documentation
 -------------
 
